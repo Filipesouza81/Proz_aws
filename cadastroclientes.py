@@ -102,8 +102,8 @@ if __name__ == "__main__":
     conectar_banco()
     interface_principal()
     import os
-import winshell
-from win32com.client import Dispatch
+import winshell # type: ignore
+from win32com.client import Dispatch # type: ignore
 
 def criar_atalho():
     desktop = winshell.desktop()
