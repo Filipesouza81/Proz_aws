@@ -30,13 +30,13 @@ def percentage():
 # Configuração da janela principal
 root = tk.Tk()
 root.title("Calculadora")
-root.geometry("540x600")
+root.geometry("600x600")
 root.resizable(False, False)  # Impede redimensionamento
 root.config(bg="black")  # Fundo da interface preta
 
 # Fonte personalizada para os botões e display
-button_font = font.Font(family="Arial", size=16, weight="bold")
-display_font = font.Font(family="Arial", size=24, weight="bold")
+button_font = font.Font(family="Arial", size=12, weight="bold")
+display_font = font.Font(family="Arial", size=14, weight="bold")
 
 # Variável para armazenar o valor digitado
 display = tk.StringVar()
